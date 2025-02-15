@@ -24,7 +24,7 @@ gem 'mongoid', '~> 5.4'
 gem 'mongoid_rails_migrations'
 gem 'rack-ssl', require: 'rack/ssl' # force SSL
 gem 'rack-ssl-enforcer', require: false
-gem 'rails_autolink'
+gem 'rails_autolink', '>= 1.1.8'
 gem 'useragent'
 
 # Please don't update hoptoad_notifier to airbrake.
@@ -97,7 +97,7 @@ group :no_docker, :test, :development do
 end
 
 gem 'puma'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'uglifier'
 gem 'jquery-rails'
 gem 'pjax_rails'
